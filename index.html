@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Nayara ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="hearts"></div>
+
+  <main class="container home-grid">
+    <section class="card hero-card">
+      <p class="top-label">um site feito com amor</p>
+      <h1 class="name">Nayara</h1>
+
+      <p class="text">
+        Desde <strong>04/12/2025</strong>, meus dias ficaram mais leves, mais bonitos e mais felizes.
+        Fiz esse cantinho para lembrar o quanto você é especial para mim. ❤️
+      </p>
+
+      <div class="counter-box">
+        <h2>Estamos juntos há</h2>
+
+        <div class="counter-grid">
+          <div class="counter-item">
+            <span id="dias">0</span>
+            <small>dias</small>
+          </div>
+          <div class="counter-item">
+            <span id="horas">0</span>
+            <small>horas</small>
+          </div>
+          <div class="counter-item">
+            <span id="minutos">0</span>
+            <small>minutos</small>
+          </div>
+          <div class="counter-item">
+            <span id="segundos">0</span>
+            <small>segundos</small>
+          </div>
+        </div>
+      </div>
+
+      <a class="btn primary" href="carta.html">Ler minha carta ❤️</a>
+    </section>
+
+    <section class="card gallery-card">
+      <p class="chip">suas fotos</p>
+      <h2 class="gallery-title">Porque você é linda em cada detalhe</h2>
+
+      <div class="slider">
+        <button class="arrow" id="prevSlide" aria-label="foto anterior">‹</button>
+
+        <div class="slider-image-box">
+          <img id="slideImage" src="imagens/foto1.jpg" alt="Foto da Nayara">
+          <div class="caption">
+            <p id="slideCaption">Você é meu sorriso favorito.</p>
+          </div>
+        </div>
+
+        <button class="arrow" id="nextSlide" aria-label="próxima foto">›</button>
+      </div>
+
+      <div class="thumbs">
+        <img src="imagens/foto1.jpg" alt="Foto 1" class="thumb active-thumb" data-index="0">
+        <img src="imagens/foto2.jpg" alt="Foto 2" class="thumb" data-index="1">
+        <img src="imagens/foto3.jpg" alt="Foto 3" class="thumb" data-index="2">
+        <img src="imagens/foto4.jpg" alt="Foto 4" class="thumb" data-index="3">
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="close-lightbox" id="closeLightbox">×</button>
+    <img id="lightboxImage" src="" alt="Foto ampliada">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
